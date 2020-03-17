@@ -70,7 +70,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1584377722154</updated>
-      <workItem from="1584377727426" duration="7732000" />
+      <workItem from="1584377727426" duration="11972000" />
+      <workItem from="1584409212694" duration="1605000" />
     </task>
     <servers />
   </component>
@@ -98,9 +99,10 @@
       <screen x="0" y="23" width="1680" height="972" />
     </state>
     <state x="341" y="148" width="1339" height="722" key="SettingsEditor/1680.23.1920.1057/0.23.1680.972@0.23.1680.972" timestamp="1584387743430" />
-    <state x="2333" y="384" key="com.intellij.ide.util.TipDialog" timestamp="1584377729409">
-      <screen x="1680" y="23" width="1920" height="1057" />
+    <state x="571" y="355" key="com.intellij.ide.util.TipDialog" timestamp="1584409212834">
+      <screen x="0" y="23" width="1680" height="972" />
     </state>
+    <state x="571" y="355" key="com.intellij.ide.util.TipDialog/1680.23.1920.1057/0.23.1680.972@0.23.1680.972" timestamp="1584409212834" />
     <state x="2333" y="384" key="com.intellij.ide.util.TipDialog/1680.23.1920.1057/0.23.1680.972@1680.23.1920.1057" timestamp="1584377729409" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
