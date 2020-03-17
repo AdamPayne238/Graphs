@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="300396ef-b0b1-4af6-a045-4aecb73d3845" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/ancestor/ancestor.py" beforeDir="false" afterPath="$PROJECT_DIR$/projects/ancestor/ancestor.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects/ancestor/util.py" beforeDir="false" afterPath="$PROJECT_DIR$/projects/ancestor/util.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +24,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/projects/ancestor" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -29,6 +32,11 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/projects/ancestor" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="graph" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
@@ -72,7 +80,7 @@
       <workItem from="1584377727426" duration="11972000" />
       <workItem from="1584409212694" duration="3967000" />
       <workItem from="1584461240647" duration="546000" />
-      <workItem from="1584472222064" duration="239000" />
+      <workItem from="1584472222064" duration="1003000" />
     </task>
     <servers />
   </component>
