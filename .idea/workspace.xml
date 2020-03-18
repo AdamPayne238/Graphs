@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="300396ef-b0b1-4af6-a045-4aecb73d3845" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects/social/social.py" beforeDir="false" afterPath="$PROJECT_DIR$/projects/social/social.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -128,7 +127,7 @@
       <workItem from="1584461240647" duration="546000" />
       <workItem from="1584472222064" duration="6931000" />
       <workItem from="1584496545589" duration="3812000" />
-      <workItem from="1584558582539" duration="9504000" />
+      <workItem from="1584558582539" duration="9802000" />
     </task>
     <servers />
   </component>
@@ -136,25 +135,25 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1638" height="260" key="GridCell.Tab.0.bottom" timestamp="1584573108028">
+    <state width="1638" height="260" key="GridCell.Tab.0.bottom" timestamp="1584573675313">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1638" height="260" key="GridCell.Tab.0.bottom/1680.23.1920.1002/0.23.1680.1027@0.23.1680.1027" timestamp="1584573108028" />
+    <state width="1638" height="260" key="GridCell.Tab.0.bottom/1680.23.1920.1002/0.23.1680.1027@0.23.1680.1027" timestamp="1584573675313" />
     <state width="1638" height="262" key="GridCell.Tab.0.bottom/1680.23.1920.1057/0.23.1680.972@0.23.1680.972" timestamp="1584564834304" />
-    <state width="1638" height="260" key="GridCell.Tab.0.center" timestamp="1584573108027">
+    <state width="1638" height="260" key="GridCell.Tab.0.center" timestamp="1584573675312">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1638" height="260" key="GridCell.Tab.0.center/1680.23.1920.1002/0.23.1680.1027@0.23.1680.1027" timestamp="1584573108027" />
+    <state width="1638" height="260" key="GridCell.Tab.0.center/1680.23.1920.1002/0.23.1680.1027@0.23.1680.1027" timestamp="1584573675312" />
     <state width="1638" height="262" key="GridCell.Tab.0.center/1680.23.1920.1057/0.23.1680.972@0.23.1680.972" timestamp="1584564834303" />
-    <state width="1638" height="260" key="GridCell.Tab.0.left" timestamp="1584573108027">
+    <state width="1638" height="260" key="GridCell.Tab.0.left" timestamp="1584573675311">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1638" height="260" key="GridCell.Tab.0.left/1680.23.1920.1002/0.23.1680.1027@0.23.1680.1027" timestamp="1584573108027" />
+    <state width="1638" height="260" key="GridCell.Tab.0.left/1680.23.1920.1002/0.23.1680.1027@0.23.1680.1027" timestamp="1584573675311" />
     <state width="1638" height="262" key="GridCell.Tab.0.left/1680.23.1920.1057/0.23.1680.972@0.23.1680.972" timestamp="1584564834303" />
-    <state width="1638" height="260" key="GridCell.Tab.0.right" timestamp="1584573108028">
+    <state width="1638" height="260" key="GridCell.Tab.0.right" timestamp="1584573675313">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
-    <state width="1638" height="260" key="GridCell.Tab.0.right/1680.23.1920.1002/0.23.1680.1027@0.23.1680.1027" timestamp="1584573108028" />
+    <state width="1638" height="260" key="GridCell.Tab.0.right/1680.23.1920.1002/0.23.1680.1027@0.23.1680.1027" timestamp="1584573675313" />
     <state width="1638" height="262" key="GridCell.Tab.0.right/1680.23.1920.1057/0.23.1680.972@0.23.1680.972" timestamp="1584564834303" />
     <state x="341" y="148" width="1339" height="722" key="SettingsEditor" timestamp="1584387743430">
       <screen x="0" y="23" width="1680" height="972" />
@@ -167,7 +166,7 @@
     <state x="2333" y="384" key="com.intellij.ide.util.TipDialog/1680.23.1920.1057/0.23.1680.972@1680.23.1920.1057" timestamp="1584377729409" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Graphs$social.coverage" NAME="social Coverage Results" MODIFIED="1584573108020" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/projects/social" />
+    <SUITE FILE_PATH="coverage/Graphs$social.coverage" NAME="social Coverage Results" MODIFIED="1584573623774" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/projects/social" />
     <SUITE FILE_PATH="coverage/Graphs$ancestor.coverage" NAME="ancestor Coverage Results" MODIFIED="1584475472013" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/projects/ancestor" />
     <SUITE FILE_PATH="coverage/Graphs$graph.coverage" NAME="graph Coverage Results" MODIFIED="1584393335686" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/projects/graph" />
   </component>
