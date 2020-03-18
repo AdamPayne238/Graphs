@@ -60,7 +60,7 @@ class SocialGraph:
         friend_list = []
         # Loop through and create possibilities
         for user_id in self.users:
-            for friend_id in range(user_id, self.last_id):
+            for friend_id in range(user_id + 1, self.last_id + 1):
                 # friend_list.append(data)
                 friend_list.append((user_id, friend_id))
         # Print friend_list
@@ -70,6 +70,10 @@ class SocialGraph:
         random.shuffle(friend_list)
         # Print shuffled list
         print(f'Shuffled Friend List: {friend_list}')
+
+        for i in range(num_users * avg_friendships // 2):
+            friendship = friend_list[i]
+            self.add_friendship(friendship[0], friendship[1])
 
     def get_all_social_paths(self, user_id):
         """
@@ -84,7 +88,7 @@ class SocialGraph:
         # Hint 1: What kind of graph search guarantees you a shortest path? BFS (Queue)
         # Hint 2: Instead of using a set to mark users as visited, you could use a dictionary.
         #   Similar to sets, checking if something is in a dictionary runs in O(1) time.
-        #   If the visited user is the key, what would the value be? Value = ?
+        #   If the visited user is the key, what would the value be? Value = path
 
         # BFS (Queue)
         q = Queue()
@@ -93,7 +97,15 @@ class SocialGraph:
             path = q.dequeue()
             last_vertex = path[-1]
             if last_vertex not in visited:
-                pass
+                if last_vertex != user_id:
+                    visited[last_vertex] = path
+                for friends in self.friendships[last_vertex]:
+                    path_copy = path.copy()
+                    path_copy.append(friends)
+                    q.enqueue(path_copy)
+
+        return visited
+
 
 if __name__ == '__main__':
     sg = SocialGraph()
