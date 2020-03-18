@@ -1,8 +1,10 @@
 import random
+from util import Queue
 
 class User:
     def __init__(self, name):
         self.name = name
+
 
 class SocialGraph:
     def __init__(self):
@@ -34,10 +36,8 @@ class SocialGraph:
         """
         Takes a number of users and an average number of friendships
         as arguments
-
         Creates that number of users and a randomly distributed friendships
         between those users.
-
         The number of users must be greater than the average number of friendships.
         """
         # Reset graph
@@ -45,7 +45,6 @@ class SocialGraph:
         self.users = {}
         self.friendships = {}
         # !!!! IMPLEMENT ME
-
         social_graph = SocialGraph()
         print("social_graph", social_graph)
 
@@ -69,22 +68,32 @@ class SocialGraph:
 
         # 2. Shuffle the friendships list
         random.shuffle(friend_list)
-
+        # Print shuffled list
         print(f'Shuffled Friend List: {friend_list}')
 
     def get_all_social_paths(self, user_id):
         """
-        Takes a user's user_id as an argument
-
-        Returns a dictionary containing every user in that user's
-        extended network with the shortest friendship path between them.
-
-        The key is the friend's ID and the value is the path.
+        1. Takes a user's user_id as an argument
+        2. Returns a dictionary containing every user in that user's
+           extended network with the shortest friendship path between them.
+        3. The key is the friend's ID and the value is the path.
         """
         visited = {}  # Note that this is a dictionary, not a set
         # !!!! IMPLEMENT ME
-        return visited
 
+        # Hint 1: What kind of graph search guarantees you a shortest path? BFS (Queue)
+        # Hint 2: Instead of using a set to mark users as visited, you could use a dictionary.
+        #   Similar to sets, checking if something is in a dictionary runs in O(1) time.
+        #   If the visited user is the key, what would the value be? Value = ?
+
+        # BFS (Queue)
+        q = Queue()
+        q.enqueue(([user_id]))
+        while q.size() > 0:
+            path = q.dequeue()
+            last_vertex = path[-1]
+            if last_vertex not in visited:
+                pass
 
 if __name__ == '__main__':
     sg = SocialGraph()

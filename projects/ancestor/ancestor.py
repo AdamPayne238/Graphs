@@ -35,7 +35,7 @@ def earliest_ancestor(ancestors, starting_node):
         # print('Ancestor:', ancestor)
         ancestor_graph.add_vertex(ancestor[0])
         ancestor_graph.add_vertex(ancestor[1])
-        ancestor_graph.add_edge(ancestor[0], ancestor[1])
+        ancestor_graph.add_edge(ancestor[1], ancestor[0])  # fixed by reversing ancestor[0], ancestor[1]
         # print("Graph Vertices", ancestor_graph.vertices)
 
     # BFS (use queue) Create a queue
