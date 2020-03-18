@@ -44,9 +44,21 @@ class SocialGraph:
         self.friendships = {}
         # !!!! IMPLEMENT ME
 
+        social_graph = SocialGraph()
+        print("social_graph", social_graph)
+
         # Add users
+        for user in range(num_users):
+            print(f'User: {user}')
+            self.add_user(user)
+            print(f'add_user(user): {user}')
 
         # Create friendships
+
+        # 1. Create a list with all possible friendships
+
+        # 2. Shuffle the friendships list
+
 
     def get_all_social_paths(self, user_id):
         """
